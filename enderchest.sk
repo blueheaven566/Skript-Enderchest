@@ -1,0 +1,7 @@
+command /enderchest:
+    permission: player.enderchest
+    alisases: /ec
+    trigger:
+        open player's enderchest for player
+        message "Enderchest wurde geöffnet"
+        stop
