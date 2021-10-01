@@ -1,0 +1,10 @@
+
+
+command /enderchest:
+    permission: player.enderchest
+    permission messagr: &c&l[ ! ] &7player.enderchest
+    aliases: /ec
+    trigger:
+        open player's ender chest for player
+        message: "Endertruhe wurde geöffnet"
+        stop
